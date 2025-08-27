@@ -19,8 +19,12 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Europe/Berlin
+          repositories_skipped: |
+            circularfashion
           plugin_isocalendar: yes
           plugin_habits: yes
+          plugin_languages: yes
           plugin_notable: yes
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 6482759
+          plugin_stackoverflow_sections: answers-top
