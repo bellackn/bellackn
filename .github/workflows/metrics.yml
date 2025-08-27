@@ -19,10 +19,6 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Europe/Berlin
-          repositories_skipped: |
-            @use.patterns
-            
-            circularfashion/*
 
           plugin_isocalendar: yes
           plugin_habits: yes
