@@ -20,7 +20,10 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Europe/Berlin
           repositories_skipped: |
-            circularfashion
+            @use.patterns
+            
+            circularfashion/*
+
           plugin_isocalendar: yes
           plugin_habits: yes
           plugin_languages: yes
