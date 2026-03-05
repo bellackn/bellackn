@@ -21,7 +21,7 @@ jobs:
           config_timezone: Europe/Berlin
 
           plugin_isocalendar: yes
-          plugin_habits: yes
+          # plugin_habits: yes
           plugin_languages: yes
           plugin_notable: yes
           plugin_stackoverflow: yes
